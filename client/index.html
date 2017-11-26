@@ -1,0 +1,102 @@
+<html>
+
+<head>
+    <style>
+        
+        body{
+            
+            background-color: gainsboro;
+            margin: 0px;
+        }
+        
+        
+        header{
+            
+            height: 40px;
+            background-color: red;
+        }
+        
+        .lista-posts, aside{
+            
+            display: inline-block;
+        }
+        
+        aside{
+            
+            width: 20%;
+            vertical-align: top;
+            background-color: white;
+            height: 100%;
+            
+        }
+        
+        .lista-posts {
+            height: 100%;
+            width: 80%;
+            overflow-y: scroll;
+        }
+    
+        .post {
+            background-color: white; 
+            margin: auto;
+            width: 400px;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+        
+        .post .autor, .post .informacion{
+            
+            display: inline-block;
+            vertical-align: middle;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            
+        }
+        
+        .post .autor{
+            
+            width: 100px;
+            height: 100px;
+            text-align: center;
+            background-color: violet;
+            
+        }
+        
+        .post .autor img{   
+            width: 50px; 
+        }
+        
+        .post .informacion{       
+            width: 300px;  
+            height: 100px;
+        }
+        
+        .post .informacion > * {
+            
+            padding: 5px;
+            padding-left: 10px; 
+            
+        }
+        
+        footer {
+            
+            background-color: firebrick;
+            
+        }
+    
+        
+    
+    </style>
+    <script crossorigin src="https://unpkg.com/react@15/dist/react.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@15/dist/react-dom.js"></script>
+    
+</head>
+
+<body>
+    
+    <div class="contenedor"></div>
+    
+</body>
+ 
+<script src="/dist/app.js">  </script>
+</html>
